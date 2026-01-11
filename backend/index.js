@@ -5,7 +5,7 @@ const cors = require('cors');
 const AuthRouter = require('./Routes/AuthRouter');
 const bookingRoutes = require('./Routes/bookingRoutes'); 
 require('dotenv').config();
-require('./models/db');
+require('./Models/db');
 
 const PORT = process.env.PORT || 8080;
 
